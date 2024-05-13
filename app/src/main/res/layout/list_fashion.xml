@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="#9EC8B9"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="10dp"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="5dp"
+        android:orientation="horizontal"
+        android:layout_margin="8dp">
+
+        <ImageView
+            android:id="@+id/imgGambarFashion"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@color/cardview_dark_background"
+            android:layout_margin="8dp"
+            android:layout_gravity="center"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="5dp">
+
+            <TextView
+                android:id="@+id/txtJenisFashion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Jenis Fashion"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:paddingLeft="5dp"
+                />
+
+            <TextView
+                android:id="@+id/txtBahanFashion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bahan Fashion"
+                android:textSize="15sp"
+                android:paddingLeft="5dp"
+                />
+
+            <TextView
+                android:id="@+id/txtWarnaFashion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Warna Fashion"
+                android:textSize="15sp"
+                android:paddingLeft="5dp"
+                />
+
+            <TextView
+                android:id="@+id/txtHargaFashion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Harga Fashion"
+                android:textSize="15sp"
+                android:paddingLeft="5dp"
+                />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
